@@ -1,0 +1,6 @@
+framework module Pods_TSLLibrary_Tests {
+  umbrella header "Pods-TSLLibrary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
