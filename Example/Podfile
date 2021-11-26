@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TSLLibrary_Tests' do
+  pod 'TSLLibrary', :path => '../'
+  
+  
+end
