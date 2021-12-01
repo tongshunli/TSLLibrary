@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TSLUIFactory: UIView {
+public class TSLUIFactory: UIView {
 
     class func view() -> UIView {
         let view = UIView.init()
