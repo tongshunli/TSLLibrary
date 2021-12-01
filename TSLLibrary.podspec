@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TSLLibrary'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = 'Control package and common methods.Test phase, unable to use.'
 
 # This description is used to generate tags and improve search results.
