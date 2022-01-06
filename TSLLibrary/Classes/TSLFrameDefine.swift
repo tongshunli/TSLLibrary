@@ -21,11 +21,11 @@ public let kQuarterMargin: CGFloat = 5.0
 
 public let kLineHeight: CGFloat = 0.5
 
-public let kStatusBarHeight = UIApplication.shared.windows.first?.safeAreaInsets.top ?? 20
+public let kStatusBarHeight = 20
 
-public let kNavbarHeight = kStatusBarHeight + 44
+public let kNavbarHeight = kIsIphoneX ? 88 : 64
 
-public let kTabbarHeight = UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0 + 49
+public let kTabbarHeight = kIsIphoneX ? 83 : 49
 
 public func kFont(_ fontSize: CGFloat) -> UIFont {
     return UIFont.systemFont(ofSize: fontSize)

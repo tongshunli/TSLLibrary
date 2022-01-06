@@ -32,3 +32,5 @@ public let kSystemVersion = UIDevice.current.systemVersion // 获取设备系统
 public let kIsIphone = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? true : false // iphone设备
 
 public let kIsIpad = UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad ? true : false // ipad设备
+
+public let kIsIphoneX = (abs(max(kScreenWidth,  kScreenHeight) / min(kScreenWidth, kScreenHeight) - 896 / 414) < 0.01 || abs(max(kScreenWidth,  kScreenHeight) / min(kScreenWidth, kScreenHeight) - 812 / 375) < 0.01)
