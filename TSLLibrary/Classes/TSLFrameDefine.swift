@@ -7,21 +7,21 @@
 
 import UIKit
     
-public let kScreenWidth: CGFloat = UIScreen.main.bounds.size.width
+public let kScreenWidth = UIScreen.main.bounds.size.width
 
-public let kScreenHeight: CGFloat = UIScreen.main.bounds.size.height
+public let kScreenHeight = UIScreen.main.bounds.size.height
 
-public let kMargin: CGFloat = 20.0
+public let kMargin = 20
 
-public let kMoreHalfMargin: CGFloat = 15.0
+public let kMoreHalfMargin = 15
 
-public let kHalfMargin: CGFloat = 10.0
+public let kHalfMargin = 10
 
-public let kQuarterMargin: CGFloat = 5.0
+public let kQuarterMargin = 5
 
-public let kLineHeight: CGFloat = 0.5
+public let kLineHeight = 0.5
 
-public let kStatusBarHeight = 20
+public let kStatusBarHeight = kIsIphoneX ? 44 : 20
 
 public let kNavbarHeight = kIsIphoneX ? 88 : 64
 
