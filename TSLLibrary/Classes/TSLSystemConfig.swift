@@ -6,7 +6,7 @@
 //
 
 import UIKit
-  
+
 public let kDocumentPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
 
 public let kCachePath = NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true)
@@ -25,6 +25,8 @@ public let keyWindow: UIWindow? = {
     return window
 }()
 
+public let KAppDelegate = UIApplication.shared.delegate
+
 public let kAppCurrentVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") // 获取当前版本号
 
 public let kSystemVersion = UIDevice.current.systemVersion // 获取设备系统号
@@ -41,3 +43,4 @@ public let kIsDarkMode: Bool = {
     }
     return false
 }()
+
